@@ -1,13 +1,15 @@
+# Menggunakan image Apache dengan PHP 8.2
 FROM php:8.2-apache
 
-# Aktifkan mod_rewrite (kalau kamu pakai routing .htaccess)
+# Aktifkan mod_rewrite (jika kamu pakai .htaccess)
 RUN a2enmod rewrite
 
-# Ganti default DirectoryIndex dari index.php ke home.php
+# Ubah file default index menjadi home.php
 RUN echo "DirectoryIndex home.php" > /etc/apache2/conf-available/directoryindex.conf && \
     a2enconf directoryindex
 
-# Copy semua file ke folder web Apache
+# Salin semua file dari direktori lokal ke folder Apache
 COPY . /var/www/html/
 
+# Port default Apache
 EXPOSE 80
