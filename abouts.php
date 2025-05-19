@@ -161,7 +161,7 @@
 </head>
 <body>
 
-  <form method="post" action="home.php">
+  <form method="post" action="index.php">
     <button type="submit" class="btn-kembali">↩️</button>
   </form>
 
