@@ -1,7 +1,7 @@
 <?php
 $host = "mysql.railway.internal";  // dari Railway
 $user = "root";               // dari Railway
-$pass = "msrQjaUzkBsxElUhzSyNchcLondgZJJV";            // dari Railway
+$pass = "ZuRwhneIWRdnjPPeznZvJuajKacnHRHB";            // dari Railway
 $db = "railway";              // dari Railway
 $port = 3306;                        // biasanya 3306, cek di Railway
 
