@@ -57,7 +57,7 @@
       position: relative;
       width: 1920px;
       height: 1080px;
-      background-image: url('polaroid_new.jpg');
+      background-image: url('polaroid.jpg');
       background-size: cover;
       background-position: center;
       border-radius: 8px;

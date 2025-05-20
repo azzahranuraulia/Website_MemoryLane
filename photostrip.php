@@ -65,7 +65,7 @@
   <button class="btn-keranjang" onclick="window.location.href='keranjangphotostrip.php'">🛒</button>
 
   <!-- Gambar latar photostrip -->
-  <img src="photostrip_new.jpg" alt="Photostrip" class="background-image">
+  <img src="photostrip.jpg" alt="Photostrip" class="background-image">
 
 </body>
 </html>
